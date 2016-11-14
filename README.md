@@ -11,3 +11,11 @@
 - `data/1.json`   1 和 2 都是课程信息
 - `data/2.json`
 - `data/name.json`  name  是全部课程号和名字的类型
+---
+公开的数据下载地址
+- [2013 课程表](http://www.tjcu.edu.cn/attach/download/2016/07/12/91103.rar)
+- [2014 课程表](http://www.tjcu.edu.cn/attach/download/2016/07/12/91104.rar)
+- [2015 课程表](http://www.tjcu.edu.cn/attach/download/2016/07/12/91105.rar)
+- [2016 课程表](http://www.tjcu.edu.cn/attach/download/2016/07/12/91142.rar)
+
+每年都会更新 下载以后放到 文件根目录下 `source` 根据年份改成 20xx 例如: 2014
