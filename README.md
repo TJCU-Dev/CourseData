@@ -29,9 +29,13 @@
 - `data/week-num.json`   处理是出来的一些数据觉得可能有用就留下来了 对应的是 同一个周的课程
 ---
 公开的数据下载地址
+### 2016年-2017年 秋季 数据时间
 - [2013 课程表](http://www.tjcu.edu.cn/attach/download/2016/07/12/91103.rar)
 - [2014 课程表](http://www.tjcu.edu.cn/attach/download/2016/07/12/91104.rar)
 - [2015 课程表](http://www.tjcu.edu.cn/attach/download/2016/07/12/91105.rar)
 - [2016 课程表](http://www.tjcu.edu.cn/attach/download/2016/07/12/91142.rar)
+- [选修课课表](http://www.tjcu.edu.cn/attach/download/2016/07/11/91046.xls)
 
 每年都会更新 下载以后放到 文件根目录下 `source` 根据年份改成 20xx 例如: 2014
+
+---
