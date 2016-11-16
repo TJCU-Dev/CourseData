@@ -28,6 +28,7 @@
 - `data/week-arr.json`   由 `3.json` 处理出来的不同时间段对应的 上课周数组 从第1周到18周
 - `data/week-num.json`   处理是出来的一些数据觉得可能有用就留下来了 对应的是 同一个周的课程
 - `data/2-new.json`  最终完成数据 一共 `3694` 条 目前 `82` 条数据没有找到对照 `10` 条 网络选修没有数据  
+
 ---
 公开的数据下载地址
 ### 2016年-2017年 秋季 数据时间
@@ -40,3 +41,33 @@
 每年都会更新 下载以后放到 文件根目录下 `source` 根据年份改成 20xx 例如: 2014
 
 ---
+
+### 数据库导入支持
+---
+#### moogodb
+>
+
+
+
+---
+## License
+
+Copyright (c) 2016 TJCU
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
