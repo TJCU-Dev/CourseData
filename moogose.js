@@ -12,9 +12,11 @@ var CourseInformationSchema = new mongoose.Schema({
   名称: String,
   学院: String,
   教师: String,
-  地点: String,
+  地点: Array,
   星期: String,
   节次: String,
+  楼: String,
+  房间: String,
   周期: Array
 });
 var CourseInformationModel = db.model('CourseInformation', CourseInformationSchema);
@@ -31,7 +33,9 @@ data.map((d,i)=>{
       地点: jm(d['上课地点']),
       星期: jweek(d['上课日期']),
       节次: jsection(d['上课节次']),
-      周期: d['上课周期key']
+      周期: d['上课周期key'],
+      楼: jm(d['上课地点'])['楼'] || '',
+      房间: jm(d['上课地点'])['房间'] || '',
     }).save(()=>{
         console.log(i)
     })
