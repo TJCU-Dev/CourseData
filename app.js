@@ -7,11 +7,16 @@ const fs = require('fs')
 const path = require('path')
 
 var roomname = require('./教室使用次数.json')
+var data = {}
 
 for (var key in roomname){
-console.log(jm(key))
+var aaa =  jm(key)
+if(aaa['楼']!=undefined){
+  if(data[aaa['楼']]==undefined)  data[aaa['楼']]=[]
+  data[aaa['楼']].push(aaa.房间)
 }
-
+}
+console.log(data)
 // 解析 上课地点信息
 function jm(key){
 
@@ -84,4 +89,4 @@ console.log(d2new.length)
 //   }).length
 // )
 
-// fs.writeFileSync(path.resolve(__dirname, 'list.json'), JSON.stringify(data))
+fs.writeFileSync(path.resolve(__dirname, 'list.json'), JSON.stringify(data))
